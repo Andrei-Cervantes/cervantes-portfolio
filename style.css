@@ -161,9 +161,21 @@ section {
 
 .section__pic-container {
     display: flex;
+    justify-content: center;
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.section__pic-container img {
+    box-shadow: 5px 5px 8px #888888;
+}
+
+.profile-pic {
+    border-top-right-radius: 10rem;
+    border-top-left-radius: 10rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .section__text {
@@ -326,7 +338,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: start;
     gap: 0.5rem;
 }
 
