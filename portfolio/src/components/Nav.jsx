@@ -3,9 +3,9 @@ import './Nav.css';
 export function Nav() {
     return <>
         <nav id="desktop-nav">
-            <div class="logo">Andrei Cervantes</div>
+            <div className="logo">Andrei Cervantes</div>
             <div>
-                <ul class="nav-links">
+                <ul className="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -15,27 +15,20 @@ export function Nav() {
         </nav>
 
         <nav id="hamburger-nav">
-            <div class="logo">Andrei Cervantes</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
+            <div className="logo">Andrei Cervantes</div>
+            <div className="hamburger-menu">
+                <div className="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                <div class="menu-links">
-                    <li><a href="#about" onclick={toggleMenu()}>About</a></li>
-                    <li><a href="#experience" onclick={toggleMenu()}>Experience</a></li>
-                    <li><a href="#projects" onclick={toggleMenu()}>Projects</a></li>
-                    <li><a href="#contact" onclick={toggleMenu()}>Contact</a></li>
+                <div className="menu-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </div>
             </div>
         </nav>
     </>;
-}
-
-function toggleMenu() {
-    const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".hamburger-icon");
-    menu.classList.toggle("open")
-    icon.classList.toggle("open")
 }

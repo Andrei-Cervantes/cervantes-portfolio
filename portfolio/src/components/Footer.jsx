@@ -1,11 +1,12 @@
+// CSS Imports
 import './Footer.css';
 
 export function Footer() {
     return <>
         <footer>
             <nav>
-                <div class="nav-links-container">
-                    <ul class="nav-links">
+                <div className="nav-links-container">
+                    <ul className="nav-links">
                         <li><a href="#about">About</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#projects">Projects</a></li>
@@ -13,7 +14,7 @@ export function Footer() {
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169 2023 Andrei Cervantes. All Rights Reserved.</p>
+            <p>Copyright &copy; 2023 Andrei Cervantes. All Rights Reserved.</p>
         </footer>
     </>;
 }
