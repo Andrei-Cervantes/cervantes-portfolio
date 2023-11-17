@@ -39,7 +39,13 @@ a:hover {
 
 /* Hamburger Menu Nav */
 #hamburger-nav {
-    display: flex;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    #hamburger-nav {
+        display: flex;
+    }
 }
 
 .hamburger-menu {
