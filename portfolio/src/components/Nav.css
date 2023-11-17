@@ -39,7 +39,7 @@ a:hover {
 
 /* Hamburger Menu Nav */
 #hamburger-nav {
-    display: none;
+    display: flex;
 }
 
 .hamburger-menu {
