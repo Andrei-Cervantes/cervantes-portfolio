@@ -375,6 +375,11 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+/* Projects Responsiveness */
+#projects-responsive {
+    display: none;
+}
+
 /* Contact Section */
 #contact {
     display: flex;
