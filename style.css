@@ -320,6 +320,7 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    min-width: 240px;
 }
 
 .experience-details-container {
