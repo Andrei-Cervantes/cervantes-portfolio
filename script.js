@@ -1,3 +1,7 @@
+const projects = {
+    // add projects here
+}
+
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
