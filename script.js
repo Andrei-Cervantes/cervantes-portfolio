@@ -71,3 +71,7 @@ function toggleMenu() {
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+
+// ********** set date ************
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
