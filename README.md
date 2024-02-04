@@ -16,6 +16,7 @@ Here're some of the project's best features:
 *   <b>Projects</b>: Explore a curated selection of projects I've completed each with the link to the repository, live demo, or video demo.
 *   <b>Skills</b>: This section showcases the skills and technologies I am proficient in.
 *   <b>CV</b>: Download my latest CV to learn more about my professional experience and qualifications.
+*   <b>Contacts</b>: Check out how to contact me if you have inquiries.
 
   
   
