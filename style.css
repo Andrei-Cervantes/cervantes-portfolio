@@ -352,6 +352,7 @@ article .icon {
 /* Projects Section */
 #projects {
     position: relative;
+    height: fit-content;
 }
 
 .color-container {
