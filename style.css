@@ -359,13 +359,6 @@ article .icon {
     background: rgb(250, 250, 250);
 }
 
-.project-img {
-    border-radius: 2rem;
-    border: 2px solid rgb(163, 163, 163);
-    width: 90%;
-    height: 90%;
-}
-
 .project-title {
     margin: 1rem;
     color: black;
