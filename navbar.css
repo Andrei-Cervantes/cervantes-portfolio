@@ -13,12 +13,10 @@ a {
 }
 
 .nav {
-    background: hsl(264,16%,77%);
+    background: rgb(53, 53, 53);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163)
 }   
 
 /* Change color of nav-header */
@@ -31,7 +29,7 @@ a {
 
 .nav-toggle {
     font-size: 1.5rem;
-    color: black;
+    color: #fff;
     background: transparent;
     border-color: transparent;
     transition: all 0.3s linear;
@@ -46,10 +44,11 @@ a {
 .logo {
     height: 40px;
     font-weight: 500;
+    color: #fff;
 }
 
 .links a {
-    color: hsl(209, 34%, 30%);
+    color: #fff;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: 0.1rem;
@@ -58,6 +57,12 @@ a {
     transition: all 0.3s linear;
 }
 
+.links a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
 
 
 .links {
